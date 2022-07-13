@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CSL-CS108"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "Cocoapod Framework for CSL CS108 SDK"
   spec.description  = "CSL SDK Library Framework, a library for operation cs-108 handheld devices from csl"
 
