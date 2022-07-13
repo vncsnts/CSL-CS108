@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3128BDFA389DEB71E3F621AD /* Pods_CSL_CS108.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB01C760D96E5283BEC33BFF /* Pods_CSL_CS108.framework */; };
 		8A5DD7E5287DBE8A00F89626 /* CSL_CS108.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD7E4287DBE8A00F89626 /* CSL_CS108.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A5DD7F8287DBECB00F89626 /* CSLBleTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DD7EC287DBECB00F89626 /* CSLBleTag.m */; };
 		8A5DD7F9287DBECB00F89626 /* CSLBleReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD7ED287DBECB00F89626 /* CSLBleReader.h */; };
@@ -24,13 +23,11 @@
 		8A5DD817287DBED100F89626 /* CSLReaderFrequency.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD805287DBED100F89626 /* CSLReaderFrequency.h */; };
 		8A5DD818287DBED100F89626 /* CSLReaderBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD806287DBED100F89626 /* CSLReaderBattery.h */; };
 		8A5DD819287DBED100F89626 /* CSLReaderSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD807287DBED100F89626 /* CSLReaderSettings.h */; };
-		8A5DD81A287DBED100F89626 /* CSLMQTTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DD808287DBED100F89626 /* CSLMQTTSettings.m */; };
 		8A5DD81B287DBED100F89626 /* CSLReaderInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD809287DBED100F89626 /* CSLReaderInfo.h */; };
 		8A5DD81C287DBED100F89626 /* CSLRfidAppEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD80A287DBED100F89626 /* CSLRfidAppEngine.h */; };
 		8A5DD81D287DBED100F89626 /* CSLTemperatureTagSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DD80B287DBED100F89626 /* CSLTemperatureTagSettings.m */; };
 		8A5DD81E287DBED100F89626 /* CSLReaderBarcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD80C287DBED100F89626 /* CSLReaderBarcode.h */; };
 		8A5DD81F287DBED100F89626 /* CSLReaderConfigurations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DD80D287DBED100F89626 /* CSLReaderConfigurations.m */; };
-		8A5DD820287DBED100F89626 /* CSLMQTTSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5DD80E287DBED100F89626 /* CSLMQTTSettings.h */; };
 		8A5DD821287DBED100F89626 /* CSLReaderSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DD80F287DBED100F89626 /* CSLReaderSettings.m */; };
 		8A5DD822287DBED100F89626 /* CSLReaderFrequency.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DD810287DBED100F89626 /* CSLReaderFrequency.m */; };
 		8A5DD823287DBED100F89626 /* CSLReaderBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DD811287DBED100F89626 /* CSLReaderBattery.m */; };
@@ -42,7 +39,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A827C50A2932FE7F6A4BF20 /* Pods-CSL-CS108.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSL-CS108.release.xcconfig"; path = "Target Support Files/Pods-CSL-CS108/Pods-CSL-CS108.release.xcconfig"; sourceTree = "<group>"; };
 		8A5DD7E1287DBE8A00F89626 /* CSL_CS108.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSL_CS108.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5DD7E4287DBE8A00F89626 /* CSL_CS108.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSL_CS108.h; sourceTree = "<group>"; };
 		8A5DD7EC287DBECB00F89626 /* CSLBleTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLBleTag.m; sourceTree = "<group>"; };
@@ -60,13 +56,11 @@
 		8A5DD805287DBED100F89626 /* CSLReaderFrequency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLReaderFrequency.h; sourceTree = "<group>"; };
 		8A5DD806287DBED100F89626 /* CSLReaderBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLReaderBattery.h; sourceTree = "<group>"; };
 		8A5DD807287DBED100F89626 /* CSLReaderSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLReaderSettings.h; sourceTree = "<group>"; };
-		8A5DD808287DBED100F89626 /* CSLMQTTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLMQTTSettings.m; sourceTree = "<group>"; };
 		8A5DD809287DBED100F89626 /* CSLReaderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLReaderInfo.h; sourceTree = "<group>"; };
 		8A5DD80A287DBED100F89626 /* CSLRfidAppEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLRfidAppEngine.h; sourceTree = "<group>"; };
 		8A5DD80B287DBED100F89626 /* CSLTemperatureTagSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLTemperatureTagSettings.m; sourceTree = "<group>"; };
 		8A5DD80C287DBED100F89626 /* CSLReaderBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLReaderBarcode.h; sourceTree = "<group>"; };
 		8A5DD80D287DBED100F89626 /* CSLReaderConfigurations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLReaderConfigurations.m; sourceTree = "<group>"; };
-		8A5DD80E287DBED100F89626 /* CSLMQTTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLMQTTSettings.h; sourceTree = "<group>"; };
 		8A5DD80F287DBED100F89626 /* CSLReaderSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLReaderSettings.m; sourceTree = "<group>"; };
 		8A5DD810287DBED100F89626 /* CSLReaderFrequency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLReaderFrequency.m; sourceTree = "<group>"; };
 		8A5DD811287DBED100F89626 /* CSLReaderBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLReaderBattery.m; sourceTree = "<group>"; };
@@ -75,8 +69,6 @@
 		8A5DD814287DBED100F89626 /* CSLRfidAppEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLRfidAppEngine.m; sourceTree = "<group>"; };
 		8A5DD815287DBED100F89626 /* CSLReaderInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLReaderInfo.m; sourceTree = "<group>"; };
 		8A5DD816287DBED100F89626 /* CSLReaderConfigurations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLReaderConfigurations.h; sourceTree = "<group>"; };
-		AB01C760D96E5283BEC33BFF /* Pods_CSL_CS108.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSL_CS108.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE69FC03FDC94005036E3FB /* Pods-CSL-CS108.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSL-CS108.debug.xcconfig"; path = "Target Support Files/Pods-CSL-CS108/Pods-CSL-CS108.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3128BDFA389DEB71E3F621AD /* Pods_CSL_CS108.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +87,6 @@
 			children = (
 				8A5DD7E3287DBE8A00F89626 /* CSL-CS108 */,
 				8A5DD7E2287DBE8A00F89626 /* Products */,
-				E143C06891E5A7E026429FE9 /* Pods */,
-				D34109C674D3526A64C044BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,13 +133,11 @@
 				8A5DD805287DBED100F89626 /* CSLReaderFrequency.h */,
 				8A5DD806287DBED100F89626 /* CSLReaderBattery.h */,
 				8A5DD807287DBED100F89626 /* CSLReaderSettings.h */,
-				8A5DD808287DBED100F89626 /* CSLMQTTSettings.m */,
 				8A5DD809287DBED100F89626 /* CSLReaderInfo.h */,
 				8A5DD80A287DBED100F89626 /* CSLRfidAppEngine.h */,
 				8A5DD80B287DBED100F89626 /* CSLTemperatureTagSettings.m */,
 				8A5DD80C287DBED100F89626 /* CSLReaderBarcode.h */,
 				8A5DD80D287DBED100F89626 /* CSLReaderConfigurations.m */,
-				8A5DD80E287DBED100F89626 /* CSLMQTTSettings.h */,
 				8A5DD80F287DBED100F89626 /* CSLReaderSettings.m */,
 				8A5DD810287DBED100F89626 /* CSLReaderFrequency.m */,
 				8A5DD811287DBED100F89626 /* CSLReaderBattery.m */,
@@ -161,24 +148,6 @@
 				8A5DD816287DBED100F89626 /* CSLReaderConfigurations.h */,
 			);
 			path = CSLModel;
-			sourceTree = "<group>";
-		};
-		D34109C674D3526A64C044BC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AB01C760D96E5283BEC33BFF /* Pods_CSL_CS108.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E143C06891E5A7E026429FE9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DEE69FC03FDC94005036E3FB /* Pods-CSL-CS108.debug.xcconfig */,
-				2A827C50A2932FE7F6A4BF20 /* Pods-CSL-CS108.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +164,6 @@
 				8A5DD81E287DBED100F89626 /* CSLReaderBarcode.h in Headers */,
 				8A5DD7F9287DBECB00F89626 /* CSLBleReader.h in Headers */,
 				8A5DD800287DBECB00F89626 /* CSLCircularQueue.h in Headers */,
-				8A5DD820287DBED100F89626 /* CSLMQTTSettings.h in Headers */,
 				8A5DD7FE287DBECB00F89626 /* CSLBleTag.h in Headers */,
 				8A5DD81C287DBED100F89626 /* CSLRfidAppEngine.h in Headers */,
 				8A5DD7FF287DBECB00F89626 /* CSLBleInterface.h in Headers */,
@@ -214,7 +182,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A5DD7E8287DBE8A00F89626 /* Build configuration list for PBXNativeTarget "CSL-CS108" */;
 			buildPhases = (
-				4BE06BCF54A414FC195FAF76 /* [CP] Check Pods Manifest.lock */,
 				8A5DD7DC287DBE8A00F89626 /* Headers */,
 				8A5DD7DD287DBE8A00F89626 /* Sources */,
 				8A5DD7DE287DBE8A00F89626 /* Frameworks */,
@@ -271,31 +238,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4BE06BCF54A414FC195FAF76 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CSL-CS108-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		8A5DD7DD287DBE8A00F89626 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -310,7 +252,6 @@
 				8A5DD7FB287DBECB00F89626 /* CSLBleInterface.m in Sources */,
 				8A5DD823287DBED100F89626 /* CSLReaderBattery.m in Sources */,
 				8A5DD81D287DBED100F89626 /* CSLTemperatureTagSettings.m in Sources */,
-				8A5DD81A287DBED100F89626 /* CSLMQTTSettings.m in Sources */,
 				8A5DD7F8287DBECB00F89626 /* CSLBleTag.m in Sources */,
 				8A5DD827287DBED100F89626 /* CSLReaderInfo.m in Sources */,
 				8A5DD81F287DBED100F89626 /* CSLReaderConfigurations.m in Sources */,
@@ -440,7 +381,6 @@
 		};
 		8A5DD7E9287DBE8A00F89626 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEE69FC03FDC94005036E3FB /* Pods-CSL-CS108.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -468,7 +408,6 @@
 		};
 		8A5DD7EA287DBE8A00F89626 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A827C50A2932FE7F6A4BF20 /* Pods-CSL-CS108.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
