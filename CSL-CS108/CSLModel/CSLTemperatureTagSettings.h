@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "../CSLReader/CSLCircularQueue.h"
+#import "CSLCircularQueue.h"
 
 #define MIN_TEMP_VALUE -40.0
 #define MAX_TEMP_VALUE +85.0
