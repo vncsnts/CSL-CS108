@@ -2,7 +2,7 @@
 //  CSLReaderConfigurations.h
 //  CS108iOSClient
 //
-//  Created by Lam Ka Shun on 2021-10-28.
+//  Created by Carlson Lam on 2021-10-28.
 //  Copyright © 2021 Convergence Systems Limited. All rights reserved.
 //
 

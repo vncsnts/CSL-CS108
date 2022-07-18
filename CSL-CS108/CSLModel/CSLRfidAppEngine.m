@@ -2,7 +2,7 @@
 //  CSLRfidAppEngine.m
 //  CS108iOSClient
 //
-//  Created by Lam Ka Shun on 18/9/2018.
+//  Created by Carlson Lam on 18/9/2018.
 //  Copyright © 2018 Convergence Systems Limited. All rights reserved.
 //
 
@@ -23,6 +23,7 @@ CSLRfidAppEngine * appEngine;
 @synthesize tagSelected;
 @synthesize CSLBleTagSelected;
 @synthesize isBarcodeMode;
+@synthesize MQTTSettings;
 @synthesize temperatureSettings;
 
 + (CSLRfidAppEngine *) sharedAppEngine
@@ -73,6 +74,8 @@ CSLRfidAppEngine * appEngine;
         reader = [[CSLBleReader alloc] init];
         settings = [[CSLReaderSettings alloc] init];
         [self reloadSettingsFromUserDefaults];
+        MQTTSettings = [[CSLMQTTSettings alloc] init];
+        [self reloadMQTTSettingsFromUserDefaults];
         temperatureSettings = [[CSLTemperatureTagSettings alloc] init];
         [self reloadTemperatureTagSettingsFromUserDefaults];
         readerInfo = [[CSLReaderInfo alloc] init];
@@ -207,6 +210,46 @@ CSLRfidAppEngine * appEngine;
     [defaults setBool:settings.postfilterIsNotMatchMaskEnabled forKey:@"postfilterIsNotMatchMaskEnabled"];
     [defaults setBool:settings.postfilterIsEnabled forKey:@"postfilterIsEnabled"];
     
+    [defaults synchronize];
+    
+}
+
+-(void)reloadMQTTSettingsFromUserDefaults {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    if([defaults objectForKey:@"isMQTTEnabled"])
+        MQTTSettings.isMQTTEnabled = (BOOL)[defaults boolForKey:@"isMQTTEnabled"];
+    if([defaults objectForKey:@"brokerAddress"])
+        MQTTSettings.brokerAddress = (NSString*)[defaults stringForKey:@"brokerAddress"];
+    if([defaults objectForKey:@"brokerAddress"])
+        MQTTSettings.brokerAddress = (NSString*)[defaults stringForKey:@"brokerAddress"];
+    if([defaults objectForKey:@"brokerPort"])
+        MQTTSettings.brokerPort = (int)[defaults integerForKey:@"brokerPort"];
+    if([defaults objectForKey:@"clientId"])
+        MQTTSettings.clientId =(NSString*)[defaults stringForKey:@"clientId"];
+    if([defaults objectForKey:@"userName"])
+        MQTTSettings.userName = (NSString*)[defaults stringForKey:@"userName"];
+    if([defaults objectForKey:@"password"])
+        MQTTSettings.password = (NSString*)[defaults stringForKey:@"password"];
+    if([defaults objectForKey:@"isTLSEnabled"])
+        MQTTSettings.isTLSEnabled = (BOOL)[defaults boolForKey:@"isTLSEnabled"];
+    if([defaults objectForKey:@"QoS"])
+        MQTTSettings.QoS = (int)[defaults integerForKey:@"QoS"];
+    if([defaults objectForKey:@"retained"])
+        MQTTSettings.retained = (BOOL)[defaults boolForKey:@"retained"];
+}
+-(void)saveMQTTSettingsToUserDefaults {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    [defaults setBool:MQTTSettings.isMQTTEnabled forKey:@"isMQTTEnabled"];
+    [defaults setObject:MQTTSettings.brokerAddress forKey:@"brokerAddress"];
+    [defaults setInteger:MQTTSettings.brokerPort forKey:@"brokerPort"];
+    [defaults setObject:MQTTSettings.clientId forKey:@"clientId"];
+    [defaults setObject:MQTTSettings.userName forKey:@"userName"];
+    [defaults setObject:MQTTSettings.password forKey:@"password"];
+    [defaults setBool:MQTTSettings.isTLSEnabled forKey:@"isTLSEnabled"];
+    [defaults setInteger:MQTTSettings.QoS forKey:@"QoS"];
+    [defaults setBool:MQTTSettings.retained forKey:@"retained"];
     [defaults synchronize];
     
 }
