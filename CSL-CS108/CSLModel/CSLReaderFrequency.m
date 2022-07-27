@@ -2,7 +2,7 @@
 //  CSLReaderFrequency.m
 //  CS108iOSClient
 //
-//  Created by Lam Ka Shun on 2020-05-15.
+//  Created by Carlson Lam on 2020-05-15.
 //  Copyright © 2020 Convergence Systems Limited. All rights reserved.
 //
 
