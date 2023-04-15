@@ -11,6 +11,5 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/VinceSantos/CSL-CS108.git", :tag => spec.version.to_s }
-  spec.source_files  = "Classes", "CSL-CS108/**/*.{h,m}"
-  spec.dependency 'MQTTClient'
+  spec.source_files  = "CSL-CS108"
 end
