@@ -14,11 +14,10 @@
 #import "CSLBlePacket.h"
 #import "CSLReaderSettings.h"
 #import "CSLReaderInfo.h"
-#import "CSLMQTTSettings.h"
 #import "CSLTemperatureTagSettings.h"
 #import "CSLReaderFrequency.h"
 #import "CSLReaderConfigurations.h"
-#import <MQTTClient/MQTTClient.h>
+//#import <MQTTClient/MQTTClient.h>
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -41,8 +40,6 @@
 @property CSLBleTag* CSLBleTagSelected;
 ///Defines the current reader mode (RFID/Barcode)
 @property (assign) BOOL isBarcodeMode;
-///Reader settings on MQTT broker
-@property CSLMQTTSettings* MQTTSettings;
 ///Reader settings for temperature tags
 @property CSLTemperatureTagSettings* temperatureSettings;
 ///Class that generates the supported regions and frequency list of the device hardware
